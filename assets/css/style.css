@@ -222,7 +222,7 @@ h6 {
 }
 
 #header .logo {
-  font-size: 30px;
+  font-size: 20px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -708,7 +708,7 @@ section {
 #portfolio .portfolio-item .portfolio-info .preview-link,
 #portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
-  right: 48px;
+  right: 15px;
   font-size: 28px;
   top: calc(50% - 28px);
   color: #4d4d4d;
@@ -908,6 +908,14 @@ section {
   padding: 80px 0 120px 0;
 }
 
+#contact a {
+  color: #333333;
+}
+
+#contact a:hover {
+  color: #03C4EB;
+}
+
 #contact .info {
   color: #333333;
 }
@@ -1073,4 +1081,18 @@ section {
   text-align: center;
   font-size: 13px;
   color: #ccc;
+}
+
+#footer .credits a:hover {
+  color: #fff;
+}
+
+#footer .socialmedia-icon {
+    font-size: 300%;
+    color: #fff;
+}
+
+#footer .socialmedia-icon:hover {
+    font-size: 300%;
+    color: #03C4EB;
 }
